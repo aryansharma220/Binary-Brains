@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLIET Mentorship Platform</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#faculty-profiles">Faculty Profiles</a></li>
+                <li><a href="#booking-system">Booking System</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to SLIET Mentorship Platform</h1>
+            <p>Connect with faculty mentors from the Computer Science Department for academic and career support.</p>
+        </section>
+
+        <section id="faculty-profiles">
+            <h2>Faculty Profiles</h2>
+            <div id="profiles-container">
+                <!-- Faculty profiles will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <section id="booking-system">
+            <h2>Book a Mentorship Session</h2>
+            <div id="booking-container">
+                <!-- Booking system will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <section id="contact-us">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SLIET Mentorship Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

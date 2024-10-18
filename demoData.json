@@ -1,0 +1,55 @@
+{
+  "facultyProfiles": [
+    {
+      "name": "Dr. Birmohan Singh",
+      "designation": "Professor",
+      "department": "Computer Science & Engineering",
+      "contact": {
+        "phoneOffice": "+91-1672-253208",
+        "phoneResidence": "+91-1672-253209",
+        "mobile": "+91-98159-80400",
+        "email": [
+          "birmohansingh@sliet.ac.in",
+          "birmohans@gmail.com"
+        ]
+      },
+      "educationalDetails": {
+        "qualification": "Ph.D., M.E."
+      },
+      "experience": {
+        "years": "About 30 years"
+      },
+      "subjectsTaught": [
+        "Software Engineering",
+        "Operating System",
+        "System Software",
+        "Object-Oriented Programming",
+        "System Analysis and Design",
+        "Data Structures",
+        "Computer Graphics"
+      ],
+      "areasOfGuidance": [
+        "Software Engineering",
+        "Operating Systems",
+        "Data Structures",
+        "System Design",
+        "Career Advice in Research and Academia",
+        "International Conferences and Publications"
+      ],
+      "availableTimeSlots": [
+        {
+          "day": "Monday",
+          "time": "10:00 AM - 12:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "2:00 PM - 4:00 PM"
+        },
+        {
+          "day": "Friday",
+          "time": "11:00 AM - 1:00 PM"
+        }
+      ]
+    }
+  ]
+}
