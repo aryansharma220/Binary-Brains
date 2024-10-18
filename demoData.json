@@ -1,6 +1,8 @@
 {
-  "facultyProfiles": [
+  "facultyData": [
     {
+      "id": 1,
+      "image": "http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg",
       "name": "Dr. Birmohan Singh",
       "designation": "Professor",
       "department": "Computer Science & Engineering",
@@ -8,10 +10,7 @@
         "phoneOffice": "+91-1672-253208",
         "phoneResidence": "+91-1672-253209",
         "mobile": "+91-98159-80400",
-        "email": [
-          "birmohansingh@sliet.ac.in",
-          "birmohans@gmail.com"
-        ]
+        "email": ["birmohansingh@sliet.ac.in", "birmohans@gmail.com"]
       },
       "educationalDetails": {
         "qualification": "Ph.D., M.E."
@@ -22,33 +21,49 @@
       "subjectsTaught": [
         "Software Engineering",
         "Operating System",
-        "System Software",
-        "Object-Oriented Programming",
-        "System Analysis and Design",
-        "Data Structures",
-        "Computer Graphics"
+        "System Software"
       ],
       "areasOfGuidance": [
         "Software Engineering",
-        "Operating Systems",
-        "Data Structures",
-        "System Design",
-        "Career Advice in Research and Academia",
-        "International Conferences and Publications"
+        "Operating Systems"
       ],
       "availableTimeSlots": [
-        {
-          "day": "Monday",
-          "time": "10:00 AM - 12:00 PM"
-        },
-        {
-          "day": "Wednesday",
-          "time": "2:00 PM - 4:00 PM"
-        },
-        {
-          "day": "Friday",
-          "time": "11:00 AM - 1:00 PM"
-        }
+        { "day": "Monday", "time": "10:00 AM - 12:00 PM" },
+        { "day": "Wednesday", "time": "2:00 PM - 4:00 PM" },
+        { "day": "Friday", "time": "11:00 AM - 1:00 PM" }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg",
+      "name": "Dr. Birmohan Singh",
+      "designation": "Professor",
+      "department": "Computer Science & Engineering",
+      "contact": {
+        "phoneOffice": "+91-1672-253208",
+        "phoneResidence": "+91-1672-253209",
+        "mobile": "+91-98159-80400",
+        "email": ["birmohansingh@sliet.ac.in", "birmohans@gmail.com"]
+      },
+      "educationalDetails": {
+        "qualification": "Ph.D., M.E."
+      },
+      "experience": {
+        "years": "About 30 years"
+      },
+      "subjectsTaught": [
+        "Software Engineering",
+        "Operating System",
+        "System Software"
+      ],
+      "areasOfGuidance": [
+        "Software Engineering",
+        "Operating Systems"
+      ],
+      "availableTimeSlots": [
+        { "day": "Monday", "time": "10:00 AM - 12:00 PM" },
+        { "day": "Wednesday", "time": "2:00 PM - 4:00 PM" },
+        { "day": "Friday", "time": "11:00 AM - 1:00 PM" }
       ]
     }
   ]

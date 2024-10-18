@@ -14,7 +14,7 @@
 
       <nav>
         <a href="#home">Home</a>
-        <a href="#booking-system">Booking</a>
+        <a href="#faculty-profiles">Faculty List</a>
         <a href="#contact-us">Contact Us</a>
         <div id="indicator"></div>
       </nav>
@@ -25,7 +25,35 @@
   <main>
     <section id="home">
       <h1>Welcome to SLIET Mentorship Platform</h1>
-      <p>Connect with faculty mentors from the Computer Science Department for academic and career support.</p>
+      
+      <div class="intro-text">
+        <p>Embark on a journey of growth and discovery with the SLIET Mentorship Platform. We connect ambitious students like you with experienced faculty mentors from the Computer Science Department, providing personalized guidance to help you navigate your academic and professional path.</p>
+      </div>
+    
+      <div class="benefits">
+        <h2>Why Choose Our Mentorship Program?</h2>
+        <ul>
+          <li><strong>Expert Guidance:</strong> Gain insights from seasoned professionals in the field of Computer Science.</li>
+          <li><strong>Personalized Support:</strong> Receive tailored advice for your unique academic and career goals.</li>
+          <li><strong>Skill Development:</strong> Enhance your technical and soft skills under expert supervision.</li>
+          <li><strong>Networking Opportunities:</strong> Build valuable connections within the academic and professional community.</li>
+          <li><strong>Career Planning:</strong> Get assistance in mapping out your future in the tech industry.</li>
+        </ul>
+      </div>
+    
+      <div class="how-it-works">
+        <h2>How It Works</h2>
+        <ol>
+          <li><strong>Explore:</strong> Browse through our esteemed faculty profiles and their areas of expertise.</li>
+          <li><strong>Choose:</strong> Select a mentor whose experience aligns with your interests and goals.</li>
+          <li><strong>Book:</strong> Use our automated booking system to schedule a convenient mentorship session.</li>
+          <li><strong>Connect:</strong> Meet with your mentor and take the first step towards your bright future!</li>
+        </ol>
+      </div>
+    
+      <div class="cta">
+        <p>Ready to accelerate your growth? Explore our faculty profiles and book your mentorship session today!</p>
+      </div>
     </section>
 
     <section id="faculty-profiles">
@@ -35,12 +63,7 @@
       </div>
     </section>
 
-    <section id="booking-system">
-      <h2>Book a Mentorship Session</h2>
-      <div id="booking-container">
-        <!-- Booking system will be dynamically inserted here -->
-      </div>
-    </section>
+    
 
     <section id="contact-us">
       <h1>Contact Us</h1>
@@ -54,9 +77,9 @@
           </div>
           <div class="form-group">
             <label for="textarea">How Can We Help You?</label>
-            <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+            <textarea name="textarea" id="textarea" rows="10" cols="50" required=""></textarea>
           </div>
-          <button>
+          <button class="btn">
             Submit
             <div class="star-1">
               <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
@@ -143,9 +166,9 @@
   </main>
 
   <footer>
-    <p>&copy; 2024 SLIET Mentorship Platform. All rights reserved.</p>
+    <p>&copy; 2024 Aryan Sharma. All rights reserved.</p>
   </footer>
-  <button id="scroll-to-top" title="Scroll to Top">&#8593;</button>
+  <button class="btn" id="scroll-to-top" title="Scroll to Top">&#8593;</button>
 
 
   <script src="script.js"></script>

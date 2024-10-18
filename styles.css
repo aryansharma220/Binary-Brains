@@ -58,14 +58,152 @@ h1, h2 {
 #profiles-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  gap: 6rem;
 }
 
 .faculty-profile {
-  background-color: #832525;
   padding: 1rem;
   border-radius: 5px;
 }
+
+.card_button {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: rgb(0 107 179);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.card_image{
+  width: 300px;
+  height: 250px;
+  object-fit: fill;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card_button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.card_button:hover .icon {
+  transform: translate(4px);
+}
+
+.card_button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.card_button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.card:hover {
+  box-shadow: 0px 0px 30px 5px rgba(238, 0, 255, 0.336);
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fcf2fb;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 18px;
+  color: #777;
+  line-height: 1.6;
+}
+
 
 /* Booking System */
 #booking-container {
@@ -75,16 +213,25 @@ h1, h2 {
 }
 
 .time-slot {
-  background-color: #5daae2;
+  background-color: #64ffda;
+  border: none;
+  margin: .4rem;
   padding: 0.5rem;
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
+  min-width: 200px;
 }
 
 .time-slot.booked {
   background-color: #ef2236;
   cursor: not-allowed;
+}
+
+.time-slot:hover{
+  background-color: transparent;
+  color: white;
+  box-shadow: 0 0 25px #fec1958c;
 }
 
 /* Contact Form */
@@ -113,7 +260,7 @@ footer {
 }
 
 
-button {
+.btn {
   position: relative;
   padding: 12px 35px;
   background: #fec195;
@@ -195,13 +342,13 @@ button {
   transition: all 0.8s ease;
 }
 
-button:hover {
+.btn:hover {
   background: transparent;
   color: #fec195;
   box-shadow: 0 0 25px #fec1958c;
 }
 
-button:hover .star-1 {
+.btn:hover .star-1 {
   position: absolute;
   top: -80%;
   left: -30%;
@@ -211,7 +358,7 @@ button:hover .star-1 {
   z-index: 2;
 }
 
-button:hover .star-2 {
+.btn:hover .star-2 {
   position: absolute;
   top: -25%;
   left: 10%;
@@ -221,7 +368,7 @@ button:hover .star-2 {
   z-index: 2;
 }
 
-button:hover .star-3 {
+.btn:hover .star-3 {
   position: absolute;
   top: 55%;
   left: 25%;
@@ -231,7 +378,7 @@ button:hover .star-3 {
   z-index: 2;
 }
 
-button:hover .star-4 {
+.btn:hover .star-4 {
   position: absolute;
   top: 30%;
   left: 80%;
@@ -241,7 +388,7 @@ button:hover .star-4 {
   z-index: 2;
 }
 
-button:hover .star-5 {
+.btn:hover .star-5 {
   position: absolute;
   top: 25%;
   left: 115%;
@@ -251,7 +398,7 @@ button:hover .star-5 {
   z-index: 2;
 }
 
-button:hover .star-6 {
+.btn:hover .star-6 {
   position: absolute;
   top: 5%;
   left: 60%;
@@ -451,16 +598,18 @@ nav a:nth-child(3):hover ~ #indicator {
 
 .form-container .form-group label {
   display: block;
+
   margin-bottom: 5px;
   color: #717171;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .form-container .form-group input {
   width: 100%;
   padding: 12px 16px;
   border-radius: 8px;
+  font-size: 14px;
   color: #fff;
   font-family: inherit;
   background-color: transparent;
@@ -469,6 +618,7 @@ nav a:nth-child(3):hover ~ #indicator {
 
 .form-container .form-group textarea {
   width: 100%;
+  font-size: 14px;
   padding: 12px 16px;
   border-radius: 8px;
   resize: none;
@@ -519,3 +669,145 @@ nav a:nth-child(3):hover ~ #indicator {
 
 
 
+#home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#home h1 {
+  color: #1a237e;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.benefits, .how-it-works {
+  margin-bottom: 2rem;
+}
+
+.benefits h2, .how-it-works h2 {
+  color: #303f9f;
+  margin-bottom: 1rem;
+}
+
+.benefits ul, .how-it-works ol {
+  padding-left: 1.5rem;
+}
+
+.benefits li, .how-it-works li {
+  margin-bottom: 0.5rem;
+}
+
+.cta {
+  background-color: #e8eaf6;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #3f51b5;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #303f9f;
+}
+
+.grid-two{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5rem;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+
+.booking_form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-family: inherit;
+  gap: 10px;
+  padding-inline: 2em;
+  padding-bottom: 0.4em;
+  background-color: #171717;
+  /* //background-color: #0a192f; */
+  border-radius: 20px;
+}
+
+.form-heading {
+  text-align: center;
+  margin: 2em;
+  color: #64ffda;
+  font-size: 1.2em;
+  background-color: transparent;
+  align-self: center;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 10px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #ccd6f6;
+  padding-inline: 1em;
+}
+
+.sendMessage-btn {
+  background-color: #64ffda;
+  cursor: pointer;
+  margin-bottom: 3em;
+  padding: 1em;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.form-card1 {
+  background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%);
+  border-radius: 22px;
+  transition: all 0.3s;
+}
+
+.form-card1:hover {
+  box-shadow: 0px 0px 30px 1px rgba(100, 255, 218, 0.3);
+}
+
+.form-card2 {
+  border-radius: 0;
+  transition: all 0.2s;
+}
+
+.form-card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
