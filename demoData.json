@@ -23,10 +23,7 @@
         "Operating System",
         "System Software"
       ],
-      "areasOfGuidance": [
-        "Software Engineering",
-        "Operating Systems"
-      ],
+      "areasOfGuidance": ["Software Engineering", "Operating Systems"],
       "availableTimeSlots": [
         { "day": "Monday", "time": "10:00 AM - 12:00 PM" },
         { "day": "Wednesday", "time": "2:00 PM - 4:00 PM" },
@@ -35,36 +32,163 @@
     },
     {
       "id": 2,
-      "image": "http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg",
-      "name": "Dr. Birmohan Singh",
+      "image": "http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg",
+      "name": "Dr. Damanpreet Singh",
       "designation": "Professor",
       "department": "Computer Science & Engineering",
       "contact": {
-        "phoneOffice": "+91-1672-253208",
-        "phoneResidence": "+91-1672-253209",
-        "mobile": "+91-98159-80400",
-        "email": ["birmohansingh@sliet.ac.in", "birmohans@gmail.com"]
+        "phoneOffice": "+91-1672-253210",
+        "phoneResidence": "+91-1672-253211",
+        "mobile": "+91-94640-96000",
+        "email": ["damanpreets@sliet.ac.in"]
       },
       "educationalDetails": {
-        "qualification": "Ph.D., M.E."
+        "qualification": "Ph.D., M.Tech, B.Tech."
       },
       "experience": {
-        "years": "About 30 years"
+        "years": "25 Years"
       },
       "subjectsTaught": [
-        "Software Engineering",
-        "Operating System",
-        "System Software"
+        "Machine Learning",
+        "Wireless Sensor Networks",
+        "Optimization Techniques",
+        "Cloud Computing"
       ],
-      "areasOfGuidance": [
-        "Software Engineering",
-        "Operating Systems"
+      "areasOfGuidance": ["Cloud Computing", "Machine Learning"],
+      "availableTimeSlots": [
+        { "day": "Tuesday", "time": "9:00 AM - 11:00 AM" },
+        { "day": "Thursday", "time": "2:00 PM - 4:00 PM" },
+        { "day": "Friday", "time": "10:00 AM - 12:00 PM" }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "http://sliet.ac.in/wp-content/uploads/avatars/35/5e69c6be20c7e-bpfull.jpg",
+      "name": "Dr. Major Singh Goraya",
+      "designation": "Professor",
+      "department": "Computer Science and Engineering",
+      "contact": {
+        "phoneOffice": "01672-253212",
+        "phoneResidence": "01672-253213",
+        "mobile": "+91-9417430477",
+        "email": ["mjrsingh@yahoo.com"]
+      },
+      "educationalDetails": {
+        "qualification": "Ph.D., M.Tech., B.Tech."
+      },
+      "experience": {
+        "years": "25+ Years"
+      },
+      "subjectsTaught": [
+        "Green Computing",
+        "Cloud computing",
+        "Distributed Systems",
+        "IOT",
+        "Machine Learning"
       ],
+      "areasOfGuidance": ["Cloud computing", "IOT", "Machine Learning"],
       "availableTimeSlots": [
         { "day": "Monday", "time": "10:00 AM - 12:00 PM" },
         { "day": "Wednesday", "time": "2:00 PM - 4:00 PM" },
         { "day": "Friday", "time": "11:00 AM - 1:00 PM" }
       ]
+    },
+    {
+      "id": 4,
+      "image": "http://sliet.ac.in/wp-content/uploads/avatars/6/605c66bd3e3bc-bpfull.jpg",
+      "name": "Dr. Manoj Sachan",
+      "designation": "Professor",
+      "department": "Computer Science & Engineering",
+      "contact": {
+        "phoneOffice": "+91-1672-253214",
+        "phoneResidence": "+91-1672-253215",
+        "mobile": "9463067527",
+        "email": ["manojsachan@sliet.ac.in", "manojsachan@gmail.com"]
+      },
+      "educationalDetails": {
+        "qualification": "B.Tech(Computer Science), M.E(Computer Science), Ph.D (Computer Science & Engineering)"
+      },
+      "experience": {
+        "years": "30+ Years"
+      },
+      "subjectsTaught": ["Machine Learning", "Image Processing"],
+      "areasOfGuidance": [
+        "Natural Language Processing",
+        "Machine Learning",
+        "Image Processing",
+        "Handwriting Analysis"
+      ],
+      "availableTimeSlots": [
+        { "day": "Tuesday", "time": "9:00 AM - 11:00 AM" },
+        { "day": "Thursday", "time": "2:00 PM - 4:00 PM" },
+        { "day": "Friday", "time": "10:00 AM - 12:00 PM" }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "http://sliet.ac.in/wp-content/uploads/avatars/14/5f2245e7a7f1bde5dee5bda48e09d411-bpfull.jpg",
+      "name": "Dr. Gurjinder Kaur",
+      "designation": "Associate Professor",
+      "department": "Computer Science & Engineering",
+      "contact": {
+        "phoneOffice": "+91-1672-253326",
+        "phoneResidence": "+91-1672-253544",
+        "mobile": "9417588161",
+        "email": ["gurjinder13@yahoo.com"]
+      },
+      "educationalDetails": {
+        "qualification": "B.E. Kyrgyz Technical University, Bishkek, M.S. BITS, Pilani, Ph.D SLIET, Longowal"
+      },
+      "experience": {
+        "years": "27+ Years"
+      },
+      "subjectsTaught": [
+        "Detection and Prevention of Attacks in Wireless Networks",
+        "Mobile Adhoc Networks"
+      ],
+      "areasOfGuidance": [
+        "Wireless Sensor Networks",
+        "Mobile Adhoc Networks",
+        "Security in Networking"
+      ],
+      "availableTimeSlots": [
+        { "day": "Monday", "time": "11:00 AM - 1:00 PM" },
+        { "day": "Wednesday", "time": "3:00 PM - 5:00 PM" },
+        { "day": "Friday", "time": "10:00 AM - 12:00 PM" }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "http://sliet.ac.in/wp-content/uploads/avatars/467/66b8bb350cc46-bpfull.jpg",
+      "name": "Dr. Amar Nath",
+      "designation": "Associate Professor",
+      "department": "Computer Science & Engineering",
+      "contact": {
+        "phoneOffice": "+91-1672-253610",
+        "phoneResidence": "+91-7579-215524",
+        "mobile": "9917037538",
+        "email": ["amarnath@sliet.ac.in"]
+      },
+      "educationalDetails": {
+        "qualification": "M. Tech. in CSE from NIT Rourkela, June 2014"
+      },
+      "experience": {
+        "years": "27+ Years"
+      },
+      "subjectsTaught": [
+        "Detection and Prevention of Attacks in Wireless Networks",
+        "Mobile Adhoc Networks"
+      ],
+      "areasOfGuidance": [
+        "Wireless Sensor Networks",
+        "Mobile Adhoc Networks",
+        "Security in Networking"
+      ],
+      "time_slots": {
+        "Monday": "2:00 PM - 4:00 PM",
+        "Wednesday": "11:00 AM - 1:00 PM",
+        "Friday": "3:00 PM - 5:00 PM"
+      }
     }
   ]
 }

@@ -107,7 +107,18 @@ function populateAvailableSlots(faculty) {
     const slotElement = document.createElement("button");
     slotElement.classList.add("time-slot");
     slotElement.textContent = `${slot.day}: ${slot.time}`;
-    slotElement.addEventListener("click", () => selectSlot(`${slot.day}: ${slot.time}`));
+    const bookedSlot = localStorage.getItem("bookedSlot");
+    if (bookedSlot === `${slot.day}: ${slot.time}`) {
+      slotElement.disabled = true;
+      slotElement.classList.add("booked");
+      slotElement.textContent += " (Booked)";
+    }
+
+    slotElement.addEventListener("click", (e) => {
+      e.preventDefault();
+      selectSlot(`${slot.day}: ${slot.time}`);
+    });
+
     availableSlotsContainer.appendChild(slotElement);
   });
 }
