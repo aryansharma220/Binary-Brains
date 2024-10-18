@@ -1,3 +1,5 @@
+
+
 let facultyData = [];
 
 // Fetch faculty data from JSON file

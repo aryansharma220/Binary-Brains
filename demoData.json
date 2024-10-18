@@ -184,11 +184,11 @@
         "Mobile Adhoc Networks",
         "Security in Networking"
       ],
-      "time_slots": {
-        "Monday": "2:00 PM - 4:00 PM",
-        "Wednesday": "11:00 AM - 1:00 PM",
-        "Friday": "3:00 PM - 5:00 PM"
-      }
+      "availableTimeSlots": [
+        { "day": "Monday", "time": "2:00 PM - 4:00 PM" },
+        { "day": "Wednesday", "time": "11:00 AM - 1:00 PM" },
+        { "day": "Friday", "time": "3:00 PM - 5:00 PM" }
+      ]
     }
   ]
 }
