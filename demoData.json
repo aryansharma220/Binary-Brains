@@ -2,7 +2,7 @@
   "facultyData": [
     {
       "id": 1,
-      "image": "http://sliet.ac.in/wp-content/uploads/avatars/5/6fc17d6735998f4f22a0e91fbf43b75c-bpfull.jpg",
+      "image": "./Images/id1.jpg",
       "name": "Dr. Birmohan Singh",
       "designation": "Professor",
       "department": "Computer Science & Engineering",
@@ -32,7 +32,7 @@
     },
     {
       "id": 2,
-      "image": "http://sliet.ac.in/wp-content/uploads/avatars/4/65783e7db0473-bpfull.jpg",
+      "image": "./Images/id2.jpg",
       "name": "Dr. Damanpreet Singh",
       "designation": "Professor",
       "department": "Computer Science & Engineering",
@@ -63,7 +63,7 @@
     },
     {
       "id": 3,
-      "image": "http://sliet.ac.in/wp-content/uploads/avatars/35/5e69c6be20c7e-bpfull.jpg",
+      "image": "./Images/id3.jpg",
       "name": "Dr. Major Singh Goraya",
       "designation": "Professor",
       "department": "Computer Science and Engineering",
@@ -95,7 +95,7 @@
     },
     {
       "id": 4,
-      "image": "http://sliet.ac.in/wp-content/uploads/avatars/6/605c66bd3e3bc-bpfull.jpg",
+      "image": "./Images/id4.jpg",
       "name": "Dr. Manoj Sachan",
       "designation": "Professor",
       "department": "Computer Science & Engineering",
@@ -126,7 +126,7 @@
     },
     {
       "id": 5,
-      "image": "http://sliet.ac.in/wp-content/uploads/avatars/14/5f2245e7a7f1bde5dee5bda48e09d411-bpfull.jpg",
+      "image": "./Images/id5.jpg",
       "name": "Dr. Gurjinder Kaur",
       "designation": "Associate Professor",
       "department": "Computer Science & Engineering",
@@ -159,7 +159,7 @@
     },
     {
       "id": 6,
-      "image": "http://sliet.ac.in/wp-content/uploads/avatars/467/66b8bb350cc46-bpfull.jpg",
+      "image": "./Images/id6.jpg",
       "name": "Dr. Amar Nath",
       "designation": "Associate Professor",
       "department": "Computer Science & Engineering",
